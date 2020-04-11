@@ -8,6 +8,7 @@
 	<title>Vote</title>
 
 	<script>
+        // https://flask.palletsprojects.com/en/1.1.x/patterns/jquery/#where-is-my-site
         SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
 
 		function vote(direction) {
